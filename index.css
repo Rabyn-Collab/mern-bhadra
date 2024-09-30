@@ -1,0 +1,31 @@
+.display {
+  height: 370px;
+  background-image: url('assets/images/showcase.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 70px;
+}
+
+.dis-info {
+  text-align: center;
+}
+
+.dis-info p {
+  margin: 17px 0;
+}
+
+.dis-info button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.dis-info button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
